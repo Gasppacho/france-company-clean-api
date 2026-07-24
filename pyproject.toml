@@ -23,9 +23,6 @@ addopts = "-q"
 [tool.ruff]
 line-length = 100
 
-[tool.vercel]
-entrypoint = "france_company_api.app:app"
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
